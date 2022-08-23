@@ -8,61 +8,68 @@
   </head>
 
   <body>
-    <div class="header">
-      <div class="logo">
-        <img src="./images/logo.svg" alt="JV Crawfish Catcher - logo" />
-      </div>
-      <div class="link-list">
-        <ul>
+    <nav class="navbar">
+      <div class="container">
+        <img
+          class="logo"
+          img
+          src="./images/logo.svg"
+          alt="JV
+        Crawfish Catcher - logo"
+        />
+        <ul class="nav">
           <li><a href="./page1.html">Page 1</a></li>
           <li><a href="./page2.html">Page 2</a></li>
           <li><a href="./page3.html">Page 3</a></li>
         </ul>
       </div>
-    </div>
+    </nav>
 
-    <div class="hero">
-      <div class="hero-left">
-        <h1>He catches 'em<br />you cook'em !</h1>
-        <p style="color: #a7cdd3">
-          Crawfish is the fruit of the creeks. You can barbecue it, boil it,
-          broil it, bake it, saute it. Dey's uh, crawfish-kabobs, crawfish
-          creole, crawfish gumbo. Pan fried, deep fried, stir-fried. Anythin'
-          you can think of really.
-        </p>
-        <button class="button"><p>Sign UP</p></button>
+    <header class="header">
+      <div class="container">
+        <div class="hero-text">
+          <h1>He catches 'em<br />you cook'em !</h1>
+          <p style="color: #a7cdd3">
+            Crawfish is the fruit of the creeks. You can barbecue it, boil it,
+            broil it, bake it, saute it. Dey's uh, crawfish-kabobs, crawfish
+            creole, crawfish gumbo. Pan fried, deep fried, stir-fried. Anythin'
+            you can think of really.
+          </p>
+          <button class="button" id="btn"><p>Sign me up!</p></button>
+        </div>
+        <img
+          class="hero-img"
+          src="./images/hero.svg"
+          alt="a delicious crawfish"
+        />
       </div>
-      <img class="hero-right" src="./images/hero.svg" alt="image description" />
-    </div>
+    </header>
 
-    <div class="body">
-      <div class="information">
-        <h2>All our crawfish are locally sourced from Bordeaux, France</h2>
-      </div>
-      <div class="image-grid">
-        <div class="grid-item">
+    <section class="information">
+      <h2>All our crawfish are locally sourced from Bordeaux, France</h2>
+      <div class="container">
+        <div class="box">
           <img src="./images/img1.jpeg" alt="image 1" />
-          <div class="text">
-            Our local creeks and waterways are lousy with crawfish!
-          </div>
+          <p>Our local creeks and waterways are lousy with crawfish!</p>
         </div>
-        <div class="grid-item">
+        <div class="box">
           <img src="./images/img2.jpeg" alt="image 2" />
-          <div class="text">
-            Here's the man, JV himself, hard at work for you!
-          </div>
+          <p>Here's the man, JV himself, hard at work for you!</p>
         </div>
-        <div class="grid-item">
+        <div class="box">
           <img src="./images/img3.jpeg" alt="image 3" />
-          <div class="text">Look at that beaut!</div>
+          <p>Look at that beaut!</p>
         </div>
-        <div class="grid-item">
+        <div class="box">
           <img src="./images/img4.jpeg" alt="image 4" />
-          <div class="text">Straight from our poles to your bowls!</div>
+          <p>Straight from our poles to your bowls!</p>
+          <p></p>
         </div>
       </div>
+    </section>
 
-      <div class="testimonial">
+    <section class="testimonial">
+      <div class="container">
         <h3>
           <em
             >This is the best dang crawfish I ever did eat! Definitely worth the
@@ -71,20 +78,21 @@
         </h3>
         <h4>- JV's Maman</h4>
       </div>
+    </section>
 
-      <div class="call-to-action">
-        <div class="container">
-          <h5>Just think, you could be eating crawfish tonight!</h5>
-          <p style="color: white">
-            Special promo offer: first-time customers receive two free crawfish
-            with any order over €100.
-          </p>
-          <p class="disclaimer">
-            * terms and conditions apply, while supplies last.
-          </p>
-        <button class="button--border"><p>Gimme a bucket !</p></button>
+    <section class="call-to-action">
+      <div class="container">
+        <h5>Just think, you could be eating crawfish tonight!</h5>
+        <p>
+          Special promo offer: first-time customers receive
+          <strong>TWO</strong> free crawfish with any order over €100.
+        </p>
+        <button class="button" id="btn2"><p>Gimme a bucket !</p></button>
+        <p class="disclaimer">
+          * terms and conditions apply, while supplies last.
+        </p>
       </div>
-    </div>
+    </section>
 
     <div class="footer">
       <p>Copyright &copy; Molly Felts Vallin 2022</p>
